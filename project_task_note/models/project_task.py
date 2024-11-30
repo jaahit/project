@@ -7,4 +7,4 @@ from odoo import fields, models
 class ProjectTask(models.Model):
     _inherit = "project.task"
 
-    notes = fields.Html(string="Internal notes")
+    notes = fields.Html(string="Internal note")
